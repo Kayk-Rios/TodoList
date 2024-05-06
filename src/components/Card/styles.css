@@ -1,0 +1,55 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #414141;
+    padding: 1rem 2rem ;
+    margin-bottom: 10px;
+    width: 80%;
+    color: white;
+}
+.card-buttons {
+   display: flex;
+   margin: auto 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+input{
+    background-color: #414141;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.done{
+    opacity: 0.5;
+}
+button{
+    color: white;
+    padding: 10px;
+   border: 0.5px;
+    border-radius: 10px;
+    margin-left:10px ;
+    background-color: #1b1818;
+}
+@media  (max-width: 768px) {
+    .card{
+        width: 80%;
+    }
+}
+@media  (max-width: 500px) {
+    .card{
+        width: 70%;
+        display: block;
+    }
+    h2{
+        font-size: 15px;
+    }
+    button{
+        font-size: 12px;
+    }
+   
+}
